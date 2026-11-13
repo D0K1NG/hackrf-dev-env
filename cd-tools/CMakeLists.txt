@@ -4,7 +4,7 @@ project(hackrf_tools LANGUAGES C)
 
 find_package(PkgConfig REQUIRED)
 
-set(TOOLS_BIN_DIR  "${CMAKE_CURRENT_SOURCE_DIR}/bin")
+set(TOOLS_BIN_DIR "${CMAKE_CURRENT_SOURCE_DIR}/bin")
 set(TOOLS hackrf_spiflash)
 
 pkg_check_modules(DEPENDANCIES REQUIRED IMPORTED_TARGET
